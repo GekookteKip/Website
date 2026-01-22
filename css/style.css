@@ -259,3 +259,29 @@ h3, input, button {
     font-size: 28px;
   }
 }
+
+@media (max-width: 600px) {
+
+  
+  .chatbot-wrapper {
+    padding: 0;
+    min-height: 100vh;
+  }
+
+
+  .chatbot-container {
+    height: 100vh;
+    max-height: 100vh;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .chatbot-header h4 {
+    font-size: 26px;
+  }
+
+  .chatbot-messages {
+    flex: 1;
+    overflow-y: auto;
+  }
+}
