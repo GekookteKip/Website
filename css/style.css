@@ -244,3 +244,18 @@ h3, input, button {
 .chatbot {
   background-color: gray;
 }
+
+.chatbot-container {
+  height: 600px;
+}
+
+@media (max-width: 600px) {
+  .chatbot-container {
+    height: auto;
+    max-height: 90vh;
+  }
+
+  .chatbot-header h4 {
+    font-size: 28px;
+  }
+}
